@@ -1,0 +1,29 @@
+{
+  "name": "learning_babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcpre/learning_babel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcpre/learning_babel/issues"
+  },
+  "homepage": "https://github.com/marcpre/learning_babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {}
+}
